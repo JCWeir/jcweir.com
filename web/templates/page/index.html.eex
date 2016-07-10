@@ -1,0 +1,36 @@
+<div class="pageOne">
+  <div class="contents">
+    <div class="text">
+      <img src="https://scontent.fphx1-2.fna.fbcdn.net/t31.0-8/10463667_10201829267445988_931554032078385529_o.jpg" style="float: right; height: 350px; padding: 10px" />
+      <h3 id="About">About</h3>
+      <p>My name is Jacqlyn Weir and my experience in coding is quite new and rather minimal but the skills I'm learning include Javascript,JQuery, HTML, CSS, and Bootstrap.<br/><br/>I am most excited to be part of the programming family and only hope that I will gain sufficiate knowledge and skill to climb that ladder in becoming a Senior Programmer if not further.<br/>The things I'm most interested in other than coding are Literature, History, and Linguistics. I feel the knowledge I gain in these areas will be of good use in programming as well.</p>
+    </div>
+    <hr />
+    <h4>“Unless you try to do something beyond what you have already mastered, you will never grow.”<br/> ― Ronald E. Osborn</h4>
+  </div>
+</div>
+
+<div class="pageTwo">
+  <div class="contents">
+    <hr />
+    <p id="portfolio">Portfolio</p>
+    <hr />
+    <div class="one">
+      <img class="portfolio" src="https://scontent.fphx1-2.fna.fbcdn.net/v/t1.0-9/1526886_10202924376263024_7416481249129907818_n.jpg?oh=31f1b29cbaa2a2f81995a572bba2cd86&oe=57CBA8DC" />
+      <img class="portfolio" src="https://scontent.fphx1-2.fna.fbcdn.net/v/t1.0-9/10647135_10202534512556675_4953850156821394542_n.jpg?oh=6eaf2e8074b497a16728b492ed066eb4&oe=57D3CCCA" />
+      <img class="portfolio" src="https://scontent.fphx1-2.fna.fbcdn.net/v/t1.0-9/10653742_10202453630414672_1682626191436714146_n.jpg?oh=e57742cb6fdff57608ec3aeb64eda135&oe=580F4EAE" />
+    </div>
+
+    <div class="two">
+      <img class="portfolio" src="https://scontent.fphx1-2.fna.fbcdn.net/t31.0-8/10496971_10201892904636878_4938344086307274624_o.jpg" />
+      <img class="portfolio" src="https://scontent.fphx1-2.fna.fbcdn.net/t31.0-8/1015038_10201629752258233_7353097327837554379_o.jpg" />
+      <img class="portfolio" src="https://scontent.fphx1-2.fna.fbcdn.net/v/t1.0-9/10171300_10201492297581952_6370576597440243841_n.jpg?oh=99f46b63718cc19078969dca98ba7066&oe=580FCBB7" />
+    </div>
+
+    <div class="three">
+      <img class="portfolio" src="https://scontent.fphx1-2.fna.fbcdn.net/t31.0-8/1524463_10201063209335014_80459707_o.jpg" />
+      <img class="portfolio" src="https://scontent.fphx1-2.fna.fbcdn.net/t31.0-8/1397253_10200645253446378_1598203306_o.jpg" />
+      <img class="portfolio" src="https://scontent.fphx1-2.fna.fbcdn.net/t31.0-8/884434_10200560486487257_1069473924_o.jpg" />
+    </div>
+  </div>
+</div>

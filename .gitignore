@@ -1,0 +1,9 @@
+# App artifacts
+/_build
+/db
+/deps
+/*.ez
+
+# client artifacts
+/node_modules
+/priv/static

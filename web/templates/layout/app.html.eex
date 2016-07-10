@@ -1,0 +1,61 @@
+<html>
+
+<head>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+  <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="container-fluid">
+      <div class="Logo">
+        <p><a href="#"><strong>J.C. Weir</strong></a></p>
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <main role="main">
+    <%= render @view_module, @view_template, assigns %>
+  </main>
+
+  <footer>
+    <div id="foot">
+      <h1 id="contact">Contact Me</h1>
+      <div class="social">
+        <h2>On the Web</h2>
+        <div class="social-icons">
+          <a class="GitHub" href="https://github.com/JCWeir" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+          <a class="Facebook" href="https://www.facebook.com/jacqlyn.c.weir" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          <a class="Instagram" href="https://Instagram.com/schwartzefeen/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a class="Codepen" href="https://Codepen.comhttp://codepen.io/JCW89/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="contact">
+        <form class="contact" name="form" method="post">
+          <label for="name">Name</label><br>
+          <input class="text" name="name" type="text"/>
+          <br><br>
+          <label for="email">Email</label><br>
+          <input class="text" name="email" type="text"/>
+          <br><br>
+          <label for="message">Message</label><br>
+          <textarea class="message" name="message"></textarea>
+          <br><br>
+          <input class="submit" name="submit" type="submit" value="submit"/>
+        </form>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
