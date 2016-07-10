@@ -4,6 +4,10 @@ body {
 
 }
 
+main {
+  margin-top: 124px;
+}
+
 .container {
   margin: 0 auto;
 }
@@ -52,10 +56,9 @@ li {
 }
 
 .pageOne {
-  margin-top: 102px;
-  padding: 130px 50px;
+  padding: 84px 50px;
  background-image : url('https://images.unsplash.com/photo-1460461499329-f6b87a045649?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=6a72b8106d0e30a6f9164b4fcd29a869');
-  height: 800px;
+  height: 721px;
   background-size: cover;
 }
 
@@ -116,10 +119,10 @@ h4 {
 }
 
 .portfolio{
-  width:400px;
-  height:350px;
-  padding:30px;
-  margin-top:50px;
+  width:360px;
+  height:275px;
+  padding:20px;
+  margin-top:20px;
 }
 
  footer {
