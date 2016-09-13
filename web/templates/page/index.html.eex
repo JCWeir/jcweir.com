@@ -15,22 +15,14 @@
     <hr />
     <p id="portfolio">Portfolio</p>
     <hr />
-    <div class="one">
-      <img class="portfolio" src="<%= static_path(@conn, "/images/samuel.jpg") %>" />
-      <img class="portfolio" src="<%= static_path(@conn, "/images/trees.jpg") %>" />
-      <img class="portfolio" src="<%= static_path(@conn, "/images/adriantea.jpg") %>" />
-    </div>
-
-    <div class="two">
-      <img class="portfolio" src="<%= static_path(@conn, "/images/unionjack.jpg") %>" />
-      <img class="portfolio" src="<%= static_path(@conn, "/images/1910dic.jpg") %>" />
-      <img class="portfolio" src="<%= static_path(@conn, "/images/hamletquestion.jpg") %>" />
-    </div>
-
-    <div class="three">
-      <img class="portfolio" src="<%= static_path(@conn, "/images/quill.jpg") %>" />
-      <img class="portfolio" src="<%= static_path(@conn, "/images/camelot.jpg") %>" />
-      <img class="portfolio" src="<%= static_path(@conn, "/images/oldbooks.jpg") %>" />
-    </div>
+    <img class="portfolio" src="<%= static_path(@conn, "/images/samuel.jpg") %>" />
+    <img class="portfolio" src="<%= static_path(@conn, "/images/trees.jpg") %>" />
+    <img class="portfolio" src="<%= static_path(@conn, "/images/adriantea.jpg") %>" />
+    <img class="portfolio" src="<%= static_path(@conn, "/images/unionjack.jpg") %>" />
+    <img class="portfolio" src="<%= static_path(@conn, "/images/1910dic.jpg") %>" />
+    <img class="portfolio" src="<%= static_path(@conn, "/images/hamletquestion.jpg") %>" />
+    <img class="portfolio" src="<%= static_path(@conn, "/images/quill.jpg") %>" />
+    <img class="portfolio" src="<%= static_path(@conn, "/images/camelot.jpg") %>" />
+    <img class="portfolio" src="<%= static_path(@conn, "/images/oldbooks.jpg") %>" />
   </div>
 </div>
