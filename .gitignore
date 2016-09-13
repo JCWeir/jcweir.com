@@ -7,3 +7,5 @@
 # client artifacts
 /node_modules
 /priv/static
+
+.DS_Store
